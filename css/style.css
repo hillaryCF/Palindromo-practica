@@ -1,0 +1,38 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.container{
+  text-align: center;
+}
+
+.tittle{
+  font-size: 30px;
+}
+
+.space {
+  width: 50%;
+  height: 30px;
+  font-size: 20px;
+}
+.button{
+  margin-top: 50px;
+  text-align: center;
+}
+.btn {
+  padding: 15px 30px;
+  background: grey;
+  border: 1px solid grey;
+  font-size: 18px;
+}
+
+.btn:hover{
+  background: black;
+  border: 1px solid black;
+  color: white;
+}
+
+.btn + .btn {
+  margin-left: 30px;
+}
