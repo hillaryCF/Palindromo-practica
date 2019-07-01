@@ -14,7 +14,7 @@ function palindrome() {
     reversee=reversee.replace(",","");
   };
   if(transform==reversee){
-  console.log(`${text.value} si es una palabra Palindromo`);
+  console.log(`${text.value} si un palabra Palindromo`);
   }
   else{
   console.log(`${text.value} no es una palabra Palindromo`);
@@ -23,13 +23,14 @@ function palindrome() {
 palindrome();
 
 function words(){
-  // var first = contenido[0].split('');
+
   let transform = text.value.toLowerCase().replace(/ /g,"");
-  let contenido= [];
-  contenido.push(transform);
-  let contenido2= contenido.slice(0);
-  contenido.sort();
-  contenido2.sort();
+  let letra= 'h';
+  if(transform.indexOf(letra) != -1){
+  console.log(`${letra} es un caracter que no se repite`);
+  }
+  
+  
 }
 words();
 
